@@ -5,9 +5,10 @@
 }
 
 body {
-    font-family: georgia, serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 16px;
     line-height: 24px;
+    background-color: #009999;
 }
 p {
     margin-bottom: 16px; 
@@ -17,10 +18,11 @@ header {
  background-color: #aaaaaa;   
     color: #ffffff;
     height: 44px;
+   
 }
 
 header h1 {
-    float: left;
+    float: right;
     font-family: "Trebuchet MS", arial, sans-serif;
     font-size: 42px;
     font-weight: 500;
@@ -33,6 +35,7 @@ header nav {
 }
 
 header a {
+    font-family: cursive, sans-serif;
     color:#000000;
     margin-right: 50px;
     text-decoration: overline;
@@ -50,18 +53,21 @@ header a:focus {}
 article {
     clear: both;
     padding: 0 10px 0 10px;
-    text-align:center;
+    text-align:left;
 }
 article h1 {
+    font-family:cursive;
  font-size: 36px;
     line-height: 44px;
     margin-top: 4px;
+    text-align: center;
 }
 }
 article h2 {
  font-size: 24px;  
     line-height: 28px;
     margin-bottom: 4px;
+    
 }
 footer {
     background-color: #aaaaaa;   
