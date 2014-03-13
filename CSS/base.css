@@ -4,6 +4,10 @@
 margin-top: 7px;
     padding: 0;
 }
+ img
+{
+float:right;
+}
 
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
